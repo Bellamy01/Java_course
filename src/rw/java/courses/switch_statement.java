@@ -1,3 +1,5 @@
+package rw.java.courses;
+
 public class switch_statement{
     public static void main(String[] args){
         int i = 50;

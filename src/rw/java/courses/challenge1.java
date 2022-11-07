@@ -1,3 +1,5 @@
+package rw.java.courses;
+
 import java.util.Scanner;
 
 public class challenge1 {
