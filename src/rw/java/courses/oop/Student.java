@@ -4,6 +4,7 @@ public class Student {
     private String name;
     private char sex;
     private int age;
+    private static int id = 0;
 
     public void Drinking(){
         System.out.println("I love to drink.");
@@ -42,13 +43,22 @@ public class Student {
         this.age = newAge;
     }
 
+    public static int getId() {
+        return id;
+    }
+
+    public static void setId(int id) {
+        Student.id = id;
+    }
 
     public Student(){
+        id++;
     }
 
     public Student(String name, char sex, int age) {
         this.name = name;
         this.sex = sex;
         this.age = age;
+        id++;
     }
 }
