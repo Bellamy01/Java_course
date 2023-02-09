@@ -1,4 +1,4 @@
-package rw.java.threads.banksystem;
+package rw.java.threads.banksystem.safe;
 
 public class DepositRunnable implements Runnable{
     private static final int DELAY = 1;
