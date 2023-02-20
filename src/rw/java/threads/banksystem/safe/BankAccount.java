@@ -28,7 +28,7 @@ public class BankAccount {
         }
     }
 
-    public void withdraw (double amount) throws InterruptedException{
+    public void withdraw (double amount) throws InterruptedException {
         balanceChangeLock.lock();
         try {
             while (balance < amount) {
